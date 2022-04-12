@@ -1,0 +1,391 @@
+.content {
+	header {
+		width: 961px;
+		height: 200px;
+		background-color: blue;
+		margin: 0 auto;
+		margin-bottom: 48px;
+		background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)), url(../images/tours-header.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.headerText {
+			color: white;
+			font-size: 60px;
+			font-family: proximanova;
+		}
+	}
+
+	.tours {
+		width: 818px;
+		height: 304px;
+		// background-color: blue;
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto;
+		margin-bottom: 55px;
+
+		.israel {
+			height: 304px;
+			width: 236px;
+			background-color: orange;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)), url(../images/tour-01.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+
+			.countryName {
+				font-size: 60px;
+				color: white;
+				font-family: proximanova;
+			}
+			.price {
+				color: white;
+				font-size: 30px;
+			}
+			.learnMore {
+				width: 133px;
+				height: 40px;
+				margin-top: 57px;
+				background-color: $site-blue;
+				border-radius: 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.learnText {
+					color: white;
+					font-size: 15px;
+					font-family: gill_sans;
+				}
+			}
+		}
+		.usa {
+			height: 304px;
+			width: 236px;
+			background-color: orange;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)), url(../images/tour-02.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+
+			.countryName {
+				font-size: 60px;
+				color: white;
+				font-family: proximanova;
+			}
+			.price {
+				color: white;
+				font-size: 30px;
+				font-family: proximanova;
+			}
+			.learnMore {
+				width: 133px;
+				height: 40px;
+				margin-top: 57px;
+				background-color: $site-blue;
+				border-radius: 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.learnText {
+					color: white;
+					font-size: 15px;
+					font-family: gill_sans;
+				}
+			}
+		}
+		.australia {
+			height: 304px;
+			width: 236px;
+			background-color: orange;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)), url(../images/tour-03.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+
+			.countryName {
+				font-size: 60px;
+				color: white;
+				font-family: proximanova;
+			}
+			.price {
+				color: white;
+				font-size: 30px;
+				font-family: proximanova;
+			}
+			.learnMore {
+				width: 133px;
+				height: 40px;
+				margin-top: 57px;
+				background-color: $site-blue;
+				border-radius: 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.learnText {
+					color: white;
+					font-size: 15px;
+					font-family: gill_sans;
+				}
+			}
+		}
+		.newZealand {
+			height: 304px;
+			width: 236px;
+			background-color: orange;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)), url(../images/tour-04.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+
+			.countryName {
+				font-size: 60px;
+				color: white;
+				font-family: proximanova;
+			}
+			.price {
+				color: white;
+				font-size: 30px;
+				font-family: proximanova;
+			}
+			.learnMore {
+				width: 133px;
+				height: 40px;
+				margin-top: 57px;
+				background-color: $site-blue;
+				border-radius: 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.learnText {
+					color: white;
+					font-size: 15px;
+					font-family: gill_sans;
+				}
+			}
+		}
+		.france {
+			height: 304px;
+			width: 236px;
+			background-color: orange;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)), url(../images/tour-05.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+
+			.countryName {
+				font-size: 60px;
+				color: white;
+				font-family: proximanova;
+			}
+			.price {
+				color: white;
+				font-size: 30px;
+				font-family: proximanova;
+			}
+			.learnMore {
+				width: 133px;
+				height: 40px;
+				margin-top: 57px;
+				background-color: $site-blue;
+				border-radius: 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.learnText {
+					color: white;
+					font-size: 15px;
+					font-family: gill_sans;
+				}
+			}
+		}
+		.egypt {
+			height: 304px;
+			width: 236px;
+			background-color: orange;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)), url(../images/tour-06.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+
+			.countryName {
+				font-size: 60px;
+				color: white;
+				font-family: proximanova;
+			}
+			.price {
+				color: white;
+				font-size: 30px;
+				font-family: proximanova;
+			}
+			.learnMore {
+				width: 133px;
+				height: 40px;
+				margin-top: 57px;
+				background-color: $site-blue;
+				border-radius: 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.learnText {
+					color: white;
+					font-size: 15px;
+					font-family: gill_sans;
+				}
+			}
+		}
+		.japan {
+			height: 304px;
+			width: 236px;
+			background-color: orange;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)), url(../images/tour-07.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+
+			.countryName {
+				font-size: 60px;
+				color: white;
+				font-family: proximanova;
+			}
+			.price {
+				color: white;
+				font-size: 30px;
+				font-family: proximanova;
+			}
+			.learnMore {
+				width: 133px;
+				height: 40px;
+				margin-top: 57px;
+				background-color: $site-blue;
+				border-radius: 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.learnText {
+					color: white;
+					font-size: 15px;
+					font-family: gill_sans;
+				}
+			}
+		}
+		.canada {
+			height: 304px;
+			width: 236px;
+			background-color: orange;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)), url(../images/tour-08.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+
+			.countryName {
+				font-size: 60px;
+				color: white;
+				font-family: proximanova;
+			}
+			.price {
+				color: white;
+				font-size: 30px;
+				font-family: proximanova;
+			}
+			.learnMore {
+				width: 133px;
+				height: 40px;
+				margin-top: 57px;
+				background-color: $site-blue;
+				border-radius: 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.learnText {
+					color: white;
+					font-size: 15px;
+					font-family: gill_sans;
+				}
+			}
+		}
+		.uae {
+			height: 304px;
+			width: 236px;
+			background-color: orange;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)), url(../images/tour-09.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+
+			.countryName {
+				font-size: 60px;
+				color: white;
+				font-family: proximanova;
+			}
+			.price {
+				color: white;
+				font-size: 30px;
+				font-family: proximanova;
+			}
+			.learnMore {
+				width: 133px;
+				height: 40px;
+				margin-top: 57px;
+				background-color: $site-blue;
+				border-radius: 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.learnText {
+					color: white;
+					font-size: 15px;
+					font-family: gill_sans;
+				}
+			}
+		}
+	}
+}

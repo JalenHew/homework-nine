@@ -1,0 +1,114 @@
+.fullpage {
+	.line {
+		max-width: 171px;
+		height: 2px;
+		background-color: black;
+		margin-top: -15px;
+		margin-bottom: 38px;
+	}
+
+	.aboutText {
+		font-size: 60px;
+		font-family: proximanova;
+	}
+
+	.about-container {
+		max-width: $site-width;
+		min-height: 96px;
+		// background-color: blue;
+
+		.about-text {
+			p {
+				font-size: 16px;
+				font-family: gill_sans;
+			}
+		}
+	}
+	.client-container {
+		max-width: 722px;
+		min-height: 429px;
+		margin-top: 90px;
+		padding-bottom: 179px;
+		// background-color: purple;
+
+		.line {
+			max-width: 225px;
+		}
+
+		.miranda-brown {
+			min-height: 200px;
+			width: 100%;
+			// background-color: orange;
+			position: relative;
+
+			p {
+				font-size: 40px;
+				font-family: proximanova;
+			}
+			.client-one {
+				position: relative;
+				display: flex;
+				.client-one-img {
+					width: 260px;
+					height: 150px;
+					// background-color: black;
+					background-image: url(../images/about-client-01.jpg);
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+				.client-one-text {
+					max-width: 385px;
+					margin-left: 21px;
+					font-family: gill_sans;
+				}
+				.client-name {
+					max-width: 176px;
+					font-size: 20px;
+					// background-color: olive;
+					position: absolute;
+					right: 0px;
+					bottom: 0%;
+					color: $site-blue;
+					font-family: proximanova;
+				}
+			}
+		}
+
+		.john-wes {
+			margin-top: 37px;
+			min-height: 200px;
+			width: 100%;
+			// background-color: red;
+
+			.client-two {
+				position: relative;
+				display: flex;
+				.client-two-img {
+					width: 260px;
+					height: 150px;
+					background-color: black;
+					background-image: url(../images/about-client-02.jpg);
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+				.client-two-text {
+					max-width: 385px;
+					margin-left: 21px;
+					font-family: gill_sans;
+				}
+				.client-name {
+					max-width: 176px;
+					font-size: 20px;
+					// background-color: olive;
+					position: absolute;
+					right: 0px;
+					bottom: 0%;
+					color: $site-blue;
+					font-family: proximanova;
+				}
+			}
+		}
+	}
+}
